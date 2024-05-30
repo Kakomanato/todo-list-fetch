@@ -1,0 +1,49 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(242, 235, 235);
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  background: #fff;
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.15),
+    0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    0 20px 0 -10px #eee,
+    0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  margin-bottom: 5px; 
+  padding: 10px; 
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 10px;
+  border-bottom: 1px solid rgb(179, 173, 173);
+}
+
+.x-icon{
+  color: rgba(201, 178, 190);
+  cursor: pointer;
+}
+
+.Footer {
+  font-size: small;
+  color: rgb(137, 130, 130);
+  padding-top: 5px;
+}
+
+h1 {
+  color: rgba(201, 178, 190);
+  font-size: 500%;
+}
