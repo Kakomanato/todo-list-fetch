@@ -47,3 +47,7 @@ h1 {
   color: rgba(201, 178, 190);
   font-size: 500%;
 }
+
+input{
+  width: 250px;
+}

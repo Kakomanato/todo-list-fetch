@@ -15,6 +15,15 @@ const Todos = () => {
     setTaskList(taskList.filter((_, i) => i !== index));
   };
 
+  const addTaskMessage = () => {
+    if (taskList.length === 0) {
+      return 'No hay tareas pendientes, agregar tareas';
+    } else {
+      return 'Agregar tarea';
+    }
+  };
+
+
   return (
     <>
       <h1>todos</h1>
@@ -22,7 +31,7 @@ const Todos = () => {
         <li>
           <input 
             type="text" 
-            placeholder="Añadir tarea" 
+            placeholder={addTaskMessage()} 
             onChange={(e) => setNewTask(e.target.value)}
             value={newTask}
             onKeyDown={handlePressKey}

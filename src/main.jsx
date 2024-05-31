@@ -6,3 +6,4 @@ import Todos from './assets/components/Todos.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
 <Todos />
 )
+
